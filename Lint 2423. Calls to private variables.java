@@ -1,3 +1,18 @@
+// Student.java
+public class Student {
+    private String name;
+    int age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+// Solution.java
 public class Solution {
     public void print(String name, int age) {
         Student student = new Student();
